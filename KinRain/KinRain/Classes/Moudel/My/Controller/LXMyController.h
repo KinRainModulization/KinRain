@@ -6,8 +6,9 @@
 //  Copyright © 2017年 xi. All rights reserved.
 //
 
-#import "BaseListViewController.h"
+//#import "BaseListViewController.h"
+#import <BaseViewController.h>
 
-@interface LXMyController : BaseListViewController
+@interface LXMyController : BaseViewController
 
 @end

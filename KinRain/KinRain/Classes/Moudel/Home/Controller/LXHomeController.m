@@ -9,10 +9,11 @@
 #import "LXHomeController.h"
 #import "LXCommunityController.h"
 #import "LXAlertView.h"
-#import "HUDTool.h"
+#import "LXProgressHUD.h"
 #import <ImageIO/ImageIO.h>
 #import "LXProductDetailController.h"
 #import "UIViewController+KNSemiModal.h"
+#import "Reachability.h"
 
 #define kUserInfo @"kUserInfo"
 
@@ -29,7 +30,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.showReloadBtn = YES;
     self.title = @"测试";
     NSDictionary *params = @{@"uid":@"",
                              @"token":@""};
@@ -80,12 +80,12 @@
 //    }];
 //    [alertView show];
     
-    [HUDTool showAnimaLoading:self.view];
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [HUDTool hide];
-    });
+    // 动画加载
+//    [LXProgressHUD showLoading:self.view];
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        [LXProgressHUD hide];
+//    });
     
-
 }
 
 @end

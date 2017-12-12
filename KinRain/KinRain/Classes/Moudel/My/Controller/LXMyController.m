@@ -18,7 +18,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
     
-    [self showEmptyViewWithImageSource:@"box" title:@"空状态" subTitle:@"11"];
+//    [self showEmptyViewWithImageSource:@"box" title:@"空状态" subTitle:@"11"];
 }
 
 @end
