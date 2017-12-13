@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '174DD66FC5301F7C2F3F3DF257EB8CDD'
-               BlueprintName = 'Pods-KinRain'
+               BlueprintIdentifier = '5732AB7B82F4562C552FDAD06B943A82'
+               BlueprintName = 'CTMediator'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-KinRain.a'>
+               BuildableName = 'libCTMediator.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

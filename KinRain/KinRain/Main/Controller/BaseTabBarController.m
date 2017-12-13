@@ -7,9 +7,9 @@
 //
 
 #import "BaseTabBarController.h"
-#import "BaseNavigationController.h"
+#import <KRHomeCategory/CTMediator+KRHome.h>
+#import <BaseNavigationController.h>
 #import "LXHomeController.h"
-#import "LXCategoryController.h"
 
 @interface BaseTabBarController ()
 
@@ -34,7 +34,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self setupChildViewController:[[LXHomeController alloc]init] withTitle:@"美购" withImage:@"home_defaulit" withSelectedImage:@"home_selected"];
+    [self setupChildViewController:[[CTMediator sharedInstance] homeViewController] withTitle:@"美购" withImage:@"home_defaulit" withSelectedImage:@"home_selected"];
     [self setupChildViewController:[[UIViewController alloc]init] withTitle:@"服务" withImage:@"fav_defaullt" withSelectedImage:@"fav_selected"];
     [self setupChildViewController:[[UIViewController alloc]init] withTitle:@"我的" withImage:@"me_defaullt" withSelectedImage:@"me_selected"];
     

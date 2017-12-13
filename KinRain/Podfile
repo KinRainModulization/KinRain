@@ -1,9 +1,13 @@
 source 'https://github.com/CocoaPods/Specs.git' 
 source 'https://github.com/KinRainModulization/KR_PrivatePods.git'
 
-#platform :ios, “9.0”
+#platform :ios, "9.0"
 
-pod ‘KRPublishLibrary’
+pod 'CTMediator'
+pod 'KRPublishLibrary'
 
-target “KinRain” do
+pod 'KRHome'
+pod 'KRHomeCategory'
+
+target "KinRain" do
 end

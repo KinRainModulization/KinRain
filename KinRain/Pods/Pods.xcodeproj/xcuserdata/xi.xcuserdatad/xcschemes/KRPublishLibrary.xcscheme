@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A342F579A17FE1F8A48DBFFD87F74BFE'
+               BlueprintIdentifier = '4412F7C84F128D5698DF40A20AC228DE'
                BlueprintName = 'KRPublishLibrary'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libKRPublishLibrary.a'>

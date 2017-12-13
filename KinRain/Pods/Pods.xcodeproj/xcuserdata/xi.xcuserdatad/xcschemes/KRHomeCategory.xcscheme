@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '174DD66FC5301F7C2F3F3DF257EB8CDD'
-               BlueprintName = 'Pods-KinRain'
+               BlueprintIdentifier = 'A165CA76AB199CAAB2B85B226C654B75'
+               BlueprintName = 'KRHomeCategory'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-KinRain.a'>
+               BuildableName = 'libKRHomeCategory.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
